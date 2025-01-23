@@ -127,3 +127,11 @@ main > section{
   background-color: rgba(1, 172, 253, 1);
 }
 
+/* rasponsive  */
+
+@media screen and (max-width: 576px) {
+
+  .kinder, .elementary, .middle{
+    flex-direction: column;
+  }
+}
