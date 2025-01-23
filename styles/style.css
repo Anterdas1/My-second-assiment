@@ -121,3 +121,9 @@ main > section{
   grid-template-columns: repeat(2, 1fr);
   gap: 1.8rem;
 }
+
+.foot{
+  gap: 8rem;
+  background-color: rgba(1, 172, 253, 1);
+}
+
