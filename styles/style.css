@@ -9,6 +9,11 @@
 }
 
 /* shared style */
+
+main > section{
+  margin: 8.13rem;
+  margin-left: 3rem;
+}
 .display-flex{
   display: flex;
 }
@@ -22,6 +27,10 @@
     border: none;
     font-weight: 200;
     font-size: 1rem;
+}
+
+.all-red{
+  border-radius: 1rem;
 }
 /* navbar related style */
 
@@ -101,4 +110,14 @@
 
  .middle{
     background-color: rgba(242, 232, 255, 1); 
+}
+
+.gap2{
+  gap: 1.5rem;
+}
+
+.story-div{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.8rem;
 }
